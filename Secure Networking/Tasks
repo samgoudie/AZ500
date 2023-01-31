@@ -1,0 +1,7 @@
+Task 1 - Create a Hub Virtual Network with an Azure firewall preimum deployed.
+Task 2 - Create a Spoke Virtual Network with 4 VM's deployed on a Linux OS.
+Task 3 - Peer the Hub and Spoke VNets and add a UDR on the VM subnet to route all internet traffic via the Azure Firewall.
+Task 4 - Create two Application Security Groups (ASG's) and add2 VM's to each ASG. 
+Task 5 - Create an NSG to block any comminication between the two ASG's. Enable NSG flow logs on this.
+Task 6 - Create a Virtual WAN with a hub in the same region as the above. Connect the Hub VNet you created to the Virtual WAN hub.
+Task 7 - Generate some traffic from one of the VM's. (ping / try to connect to internet etc), view the NSG flow logs for any traffic.
